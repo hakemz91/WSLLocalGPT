@@ -2,6 +2,7 @@
 
 This is minor fork of localGPT focusing only installation in Windows WSL2 and some minor addition. If you can use WSL2 for installation then it is sane to do this because it is using full GPU and blazing fast, not like if you install in Windows native Anaconda which is although it uses full GPU, but it is really slow as slow as using CPU. So there is no point you install it using native Anaconda in Windows.
 
+![Alt text]([image_path_or_URL](https://raw.githubusercontent.com/hakemz91/WSLLocalGPT/main/WSLLGPTImage.png))
 
 ## Features
 
