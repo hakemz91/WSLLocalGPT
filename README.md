@@ -9,7 +9,7 @@ This is minor fork of localGPT focusing only installation in Windows WSL2 and so
 2. Option to auto shutdown the PC after the ingestion is done. (useful for overnight bulk file ingestion) 
 3. Simple logging of start time and finish time.
 
-![Alt text](https://github.com/hakemz91/WSLLocalGPT/blob/main/WSLLGPTImage.png)
+![Alt text](https://github.com/hakemz91/WSLLocalGPT/blob/main/intro_image_WSLLGPT.png)
 
 ## How to install
 
