@@ -65,7 +65,7 @@ CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install llama-cpp-python==0.1.8
 
 ## How to customize the model and launch command
 
-It is so easy. Just edit the model id in the constants.txt to the model that you want. But do not forget to replace the --model_type flag according to your model. The default one is for mistral based model. If you want to use llama model for example, change to llama in the .bashrc file in run commands function at the end. Just change mistral to llama. That's it:
+It is so easy. Just edit the model id and name in the constants.txt to the model that you want. But do not forget to replace the --model_type flag according to your model in bashrc file in wsl. Just use command (nano .bashrc) in your wsl. The default one is for mistral based model. If you want to use llama model for example, change to llama in the .bashrc file in run commands function at the end. Just change mistral to llama. That's it:
 
 ```
 python run_localGPT.py --model_type llama
