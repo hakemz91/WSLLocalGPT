@@ -73,7 +73,7 @@ python run_localGPT.py --model_type llama
 
 ## How to reset the vector database
 
-Just delete the db folder and reingesting back using option 2 or 3.
+Just delete the db folder and reingesting back using option 3 or 4.
 
 ## Forked from awesome original LocalGPT
 https://github.com/PromtEngineer/localGPT
