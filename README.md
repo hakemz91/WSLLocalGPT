@@ -2,13 +2,14 @@
 
 This is minor fork of localGPT focusing only installation in Windows WSL2 and some minor addition. If you can use WSL2 for installation then it is sane to do this because it is using full GPU and blazing fast, not like if you install in Windows native Anaconda which is although it uses full GPU, but it is really slow as slow as using CPU. So there is no point you install it using native Anaconda in Windows.
 
-![Alt text](https://github.com/hakemz91/WSLLocalGPT/blob/main/WSLLGPTImage.png)
 
 ## Features
 
 1. Easy to use with simple options.
 2. Option to auto shutdown the PC after the ingestion is done. (useful for overnight bulk file ingestion) 
 3. Simple logging of start time and finish time.
+
+![Alt text](https://github.com/hakemz91/WSLLocalGPT/blob/main/WSLLGPTImage.png)
 
 ## How to install
 
