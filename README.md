@@ -66,6 +66,10 @@ CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install llama-cpp-python==0.1.8
 
 10. Done install! Now just close the wsl windows and then lauch again the launcher.bat. Choose which option number you want and then type it and press enter. First run will take some time because of downloading the model. After finish the selected option processing, it will ask if you want to run another command. If you do, let say after ingestion you want to run the chatting, just answer y and press enter and it will ask you again the available option.
 
+## Time Logging
+
+After every ingestion for both without and with auto shutdown system, a start.txt and finish.txt will be updated. So the files will contain the time and date of latest run process.
+
 ## How to customize the model and launch command
 
 It is so easy. Just edit the model id and name in the constants.txt to the model that you want. But do not forget to replace the --model_type flag according to your model in bashrc file in wsl. Just use command (nano .bashrc) in your wsl. The default one is for mistral based model. If you want to use llama model for example, change to llama in the .bashrc file in run commands function at the end. Just change mistral to llama. That's it:
