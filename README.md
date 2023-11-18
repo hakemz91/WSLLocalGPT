@@ -1,6 +1,6 @@
 # WSLLocalGPT
 
-This is minor fork of localGPT focusing only installation in Windows WSL2 and some minor addition. If you can use WSL2 for installation then it is sane to do this because it is blazing fast and using GPU fully with GPTQ model, not like if you install in Windows native Anaconda which is although it uses full GPU, but it is really slow as slow as using CPU. So there is no point you install it using native Anaconda in Windows. And in WSL2 and Using my RTX 3060 12 GB GPU, it only took 5 seconds to answer with my 3 GB of vectorstore database size.
+This is minor fork of localGPT focusing only installation in Windows WSL2 and some minor addition. If you can use WSL2 for installation then it is sane to do this because it is blazing fast and using GPU fully with GPTQ model, not like if you install in Windows native Anaconda which is although it uses full GPU, but it is really slow as slow as using CPU. So there is no point you install it using native Anaconda in Windows. And in WSL2 and Using my RTX 3060 12 GB GPU, it only took 5-10 seconds to answer with my 3 GB of vectorstore database size.
 
 
 ## Features
@@ -75,7 +75,7 @@ After every ingestion for both without and with auto shutdown system, a start.tx
 
 ## How to customize the model and launch command
 
-Just edit the model id in the constants.txt to the model id that you want and then save the file, BUT must be be llama2 based model. And use the bloke 4 bit quantized GPTQ model. However the default Nous-Hermes model is the best, have very less halucination and took only like 5 seconds to answer question using my RTX 3060 12 GB.
+Just edit the model id in the constants.txt to the model id that you want and then save the file, BUT must be be llama2 based model. And use the bloke 4 bit quantized GPTQ model. However the default Nous-Hermes model is the best, have very less halucination and took only like 5-10 seconds to answer question using my RTX 3060 12 GB.
 
 ```
 MODEL_ID = "TheBloke/Nous-Hermes-Llama-2-7B-GPTQ"
