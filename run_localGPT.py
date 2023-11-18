@@ -117,8 +117,8 @@ def load_model(device_type, model_id, model_basename=None):
         model=model,
         tokenizer=tokenizer,
         max_length=4096,
-        temperature=0,
-        top_p=0.95,
+        temperature=0.2,
+        #top_p=0.95,
         repetition_penalty=1.15,
         generation_config=generation_config,
     )
