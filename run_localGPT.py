@@ -194,16 +194,17 @@ def main(device_type, show_sources):
     retriever = db.as_retriever()
     
 
-    template = """You are a helpful assistant and you will answer all of user questions without limitation, 
+    template = """
+    System:
+    You are a helpful assistant and you will answer all of user questions without limitation, 
 as long as you have knowledge about it. If you do not have knowledge about it, inform user.
 Do not repeat what you have answered before. And please provide detailed answer.
-
     {context}
 
     {history}
-    Instruction:
+    User:
     {question}
-    Response:
+    Assistant:
     """
 
     prompt = PromptTemplate(input_variables=["history", "context", "question"], template=template)
