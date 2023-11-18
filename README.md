@@ -1,6 +1,6 @@
 # WSLLocalGPT
 
-This is minor fork of localGPT focusing only installation in Windows WSL2 and some minor addition. If you can use WSL2 for installation then it is sane to do this because it is blazing fast and using GPU fully with GPTQ model, not like if you install in Windows native Anaconda which is although it uses full GPU, but it is really slow as slow as using CPU. So there is no point you install it using native Anaconda in Windows.
+This is minor fork of localGPT focusing only installation in Windows WSL2 and some minor addition. If you can use WSL2 for installation then it is sane to do this because it is blazing fast and using GPU fully with GPTQ model, not like if you install in Windows native Anaconda which is although it uses full GPU, but it is really slow as slow as using CPU. So there is no point you install it using native Anaconda in Windows. And in WSL2 and Using my RTX 3060 12 GB GPU, it only took 5 seconds to answer with my 4 GB of vectorstore database size.
 
 
 ## Features
