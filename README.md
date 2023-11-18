@@ -11,6 +11,8 @@ This is minor fork of localGPT focusing only installation in Windows WSL2 and so
 
 ![Alt text](https://github.com/hakemz91/WSLLocalGPT/blob/main/Main_UI.png)
 
+![Alt text](https://github.com/hakemz91/WSLLocalGPT/blob/main/QNA_UI.png)
+
 ## How to install
 
 1. Git clone this repo to anywhere in your windows.
