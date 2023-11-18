@@ -29,12 +29,12 @@ wsl --update
 wsl --list
 ```
 
-for example my distro id name is Ubuntu-18.04
+for example my distro id name is Ubuntu-22.04
 Keep this for later instruction
 
-5. Right click the launcher.bat and replace the distro id name to the one you used and saved it, for example in this case is Ubuntu-18.04
+5. Right click the launcher.bat and replace the distro id name to the one you used and saved it, for example in this case is Ubuntu-22.04
 
-6. Lauch the launcher.bat file and it will automatically enter the for example Ubuntu-18.04
+6. Lauch the launcher.bat file and it will automatically enter the for example Ubuntu-22.04
 
 7. Now in the WSL windows, run the below command one at a time:
 
@@ -72,15 +72,16 @@ After every ingestion for both without and with auto shutdown system, a start.tx
 
 ## How to customize the model and launch command
 
-It is so easy. Just edit the model id and name in the constants.txt to the model that you want. But do not forget to replace the --model_type flag according to your model in bashrc file in wsl. Just use command (nano .bashrc) in your wsl. The default one is for mistral based model. If you want to use llama model for example, change to llama in the .bashrc file in run commands function at the end. Just change mistral to llama. That's it:
+It is so easy. Just edit the model id in the constants.txt to the model id that you want and then save the file. And use the bloke 4 bit quantized GPTQ model. However the default Nous-Hermes model is the best and took only like 5 seconds to answer question using my RTX 3060 12 GB.
 
 ```
-python run_localGPT.py --model_type llama
+MODEL_ID = "TheBloke/Nous-Hermes-Llama-2-7B-GPTQ"
+MODEL_BASENAME = "model.safetensors"
 ```
 
 ## How to reset the vector database
 
-Just delete the db folder and reingesting back using option 3 or 4.
+Just delete the DB folder and reingesting back using option 3 or 4.
 
 ## Forked from awesome original LocalGPT
 https://github.com/PromtEngineer/localGPT
