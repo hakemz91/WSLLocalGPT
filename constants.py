@@ -72,13 +72,9 @@ EMBEDDING_MODEL_NAME = "hkunlp/instructor-large" # Uses 1.5 GB of VRAM (High Acc
 
 ######################################################### Fork model start
 
-#The Number 1
-MODEL_ID = "TheBloke/neural-chat-7B-v3-1-GPTQ"
+#The No 1 - the best for retrieving information
+MODEL_ID = "TheBloke/Nous-Hermes-Llama-2-7B-GPTQ"
 MODEL_BASENAME = "model.safetensors"
-
-#The Number 2
-#MODEL_ID = "TheBloke/Nous-Hermes-Llama-2-7B-GPTQ"
-#MODEL_BASENAME = "model.safetensors"
 
 ######################################################### Fork model end
 
