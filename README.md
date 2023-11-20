@@ -73,7 +73,7 @@ CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install llama-cpp-python==0.1.8
 
 After every ingestion for both without and with auto shutdown system, a start.txt and finish.txt will be updated. So the files will contain the time and date of latest run process.
 
-## How to customize the model and launch command
+## How to customize the model
 
 Default model is the best and I highly recommend you not to change it for the best result. I have tested so many models that I can affirm this. Maybe in the future will exist better model but for right now this is the best. However if you really want to change, just edit the model id in the constants.txt to the model id that you want and then save the file, BUT must be llama2 based model. And use The Bloke 4 bit quantized GPTQ model ( https://huggingface.co/TheBloke ). 
 
