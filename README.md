@@ -43,7 +43,7 @@ Keep this for later instruction
 
 ```
 sudo apt update -y
-sudo apt upgrade -y 
+sudo apt upgrade -y
 sudo apt install build-essential -y
 cd anaconda_installer
 bash Anaconda3-2023.07-2-Linux-x86_64.sh
